@@ -5,8 +5,8 @@
 #include <WebServer.h>
 
 // WiFi
-const char *WIFISSID = "Rabanete";
-const char *senha = "thorzuL1";
+const char *WIFISSID = "*****";
+const char *senha = "*****";
 
 // Mapa do Hardware
 
@@ -20,8 +20,8 @@ int mediaTouch;
 IPAddress local_IP(192, 168, 1, 50);  // Defina o IP de acesso
 IPAddress gateway(192, 168, 1, 1);    // Defina o IP do roteador de internet
 IPAddress subnet(255, 255, 255, 0);   // Defina a máscara de sub-rede
-IPAddress primaryDNS(192, 168, 1, 1); // opcional - DNS primário
-IPAddress secondaryDNS(8, 8, 8, 8);   // opcional - DNS secundário
+IPAddress primaryDNS(192, 168, 1, 1); // opcional 
+IPAddress secondaryDNS(8, 8, 8, 8);   // opcional 
 
 WebServer server(80);
 
